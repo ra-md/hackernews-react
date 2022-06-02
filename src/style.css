@@ -1,0 +1,22 @@
+pre {
+   overflow: auto;
+}
+
+details {
+   border-top: 1px solid #aaa;
+   padding: 1rem 0;
+}
+
+.comment {
+   overflow-wrap: break-word;
+}
+
+.comment-children {
+   padding: 0 0 0 1rem;
+}
+
+@media (min-width: 720px) {
+   .comment-children {
+      padding: 0 0 0 1.5rem;
+   }
+}
